@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Ye;
+    src: url('../fonts/yeezy.ttf');
+}
+
+/* STYLES FOR HOME PAGE */
+
+body {
+	font-family: Ye;
+	color: #ababab;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.header-container {
+  padding-top: 28px;
+}
+
+.website-container {
+	padding-top: 100px;
+}
+
+.slogan {
+	/*font-size: 15px;*/
+}
+
+a {
+  color: #ababab;
+}
+
+.footer-container {
+	padding-top: 50px;
+	padding-bottom: 26px;
+}
+
+.modal .modal-content {
+	text-align: left;
+	font-size: 15px;
+}
+
+.title-container {
+	padding-bottom: 100px;
+}
+
+.site-name-separator {
+	padding-top: 10px;
+}
+
+.footer-section-separator {
+	padding-top: 6px;
+}
+
+div#modal1 {
+    outline: none;
+}
+
+/* PRE-LOADER */
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/logos/doves.GIF) center no-repeat #fff;
+}
